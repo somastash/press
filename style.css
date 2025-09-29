@@ -98,6 +98,10 @@
   text-align: right;
   color: #0066;
 }
+:root.small {
+  --fs-s: 12pt;
+  --fs-m: 15pt;
+}
 :root.left {
   padding-right: 1.5em;
 }
