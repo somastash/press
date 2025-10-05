@@ -227,6 +227,10 @@ strong {
 strong code {
   color: #4f9;
 }
+/* ---- Lists ---- */
+li {
+  margin-top: 0 !important;
+}
 ol li::marker {
   color: var(--c-grey);
   font-family: 'Courier New', Courier, monospace;
