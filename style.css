@@ -186,6 +186,9 @@
 .grey-stripes {
   background-image: repeating-linear-gradient(135deg, white 0, var(--c-grey-lt) 1px, var(--c-grey-lt) 2px, white 3px, white 10px);
 }
+p + p {
+  margin-top: 0.75em;
+}
 a code {
   background-color: var(--color-accent-fg);
   color: white;
