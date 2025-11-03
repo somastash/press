@@ -167,10 +167,6 @@
   display: block;
   flex: 1;
 }
-.cols > * img {
-  display: block;
-  width: 100%;
-}
 .cols.c21 > *:first-child,
 .cols.c12 > *:last-child {
   flex: 2;
@@ -266,6 +262,10 @@ table.numtable td {
 }
 img {
   background-color: transparent;
+}
+img.emoji {
+  display: inline;
+  width: auto;
 }
 /* highlight.js theme */
 pre code.hljs {
